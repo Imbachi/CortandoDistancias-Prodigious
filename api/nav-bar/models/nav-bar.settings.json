@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_bars",
+  "info": {
+    "name": "NavBar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_name": {
+      "type": "string"
+    },
+    "navigation_1": {
+      "type": "string"
+    },
+    "navigation_2": {
+      "type": "string"
+    },
+    "navigation_3": {
+      "type": "string"
+    },
+    "quienes_somos": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

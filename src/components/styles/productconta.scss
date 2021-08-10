@@ -1,0 +1,27 @@
+.categorias{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 8em;
+}
+
+.catlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    li{
+        padding: 1.5em 2em;
+        background-color: #F1DDCE;
+        a{
+            color: black;
+        }
+    }
+}
+.productsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+    margin: 4em 15em;
+    box-sizing: border-box;
+}
